@@ -1,9 +1,7 @@
 # Frontend Challenge by Caleb and Brown.
 
-## Records
-
-* Github repository : https://github.com/ProgrammingProject1-2021/Frontend
-* Deployed project: http://frontend-dev22.ap-southeast-2.elasticbeanstalk.com/
+## Attempted by:
+Minjin Chou
 
 ## Code documentation - 
 - Data from coingecko API are displayed.
