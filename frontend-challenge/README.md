@@ -8,6 +8,9 @@ Minjin Chou
 - Search bar working (Able to search and filter by name and symbol.)
 - Pagination of currencies
 - Loading state displayed
+- Error handled
+- Prettier code formatting used
+- Unit testing for useEffect passed
 
 
 To run the application locally : 
