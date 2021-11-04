@@ -54,47 +54,7 @@ function App() {
 
   return (
     <div className="frontend-app">
-      <div className="search-bar">
-        <h1 className="bar-name"> Search currency</h1>
-        <form>
-          <input
-            type="text"
-            placeholder="Search"
-            className="coin-input"
-            onChange={handleChange}
-          />
-        </form>
-      </div>
-      <div className="coin-header">
-        <p className="header-1">--</p>
-        <p className="header-2">Name</p>
-        <p className="header-3">Symbol</p>
-        <p className="header-4">Price</p>
-        <p className="header-5">Volume</p>
-        <p className="header-6">Price Change</p>
-        <p className="header-7">Market cap</p>
-      </div>
-      {filteredCoins.map((coins) => {
-        return (
-          <Coin
-            key={coins.id}
-            name={coins.name}
-            image={coins.image}
-            symbol={coins.symbol}
-            marketcap={coins.market_cap}
-            price={coins.current_price}
-            priceChange={coins.price_change_percentage_24h}
-            volume={coins.total_volume}
-          />
-        );
-      })}
-      <br />
-      <br />
-      <Pagination
-        coinsPerpage={coinsPerPage}
-        totalCoins={coins.length}
-        paginate={paginate}
-      />
+      <h1> Website under maintenance... </h1>
     </div>
   );
 }
